@@ -22,6 +22,9 @@
 # OBJ_DIR - where the obj files will be built in (defaults to LIB_DIR)
 # LIB_NAME - the name of the native library
 
+LIB_DIR ?= ./lib
+OBJ_DIR ?= ./obj
+
 SRC_DIR = src/main/c
 UTIL_SRC_DIR = target/netty-jni-util
 JNI_INCLUDE_DIR = $(JAVA_HOME)/include
